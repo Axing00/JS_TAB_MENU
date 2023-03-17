@@ -1,0 +1,11 @@
+* {
+	margin: 0 auto;
+}
+
+.tab_menu {
+	position: relative;
+}
+
+.tab_menu .list {
+	overflow: hidden;
+}
