@@ -1,5 +1,6 @@
 * {
-	margin: 0 auto;
+	margin: 0;
+	padding: 0;
 }
 
 li {
@@ -22,32 +23,17 @@ footer {
 	display: block;
 }
 
-
 .tab_menu {
 	position: relative;
 }
 
 .tab_menu .list {
-	display: flex;
-	width: 1080px;
-	margin: 0 auto;
+	overflow: hidden;
 }
 
-.tab_menu .list li {}
-
-.tab_menu .list .btn {
-	font-size: 13px;
-}
-
-.tab_menu .list .cont {
-	display: none;
-	position: absolute;
-	background: #555;
-	color: #fff;
-	text-align: center;
-	width: 250px;
-	height: 100px;
-	line-height: 100px;
+.tab_menu .list li {
+	float: left;
+	margin-right: 14px;
 }
 
 .tab_menu .list li.is_on .btn {
@@ -55,6 +41,20 @@ footer {
 	color: green;
 }
 
-.tab_menu .list li.is_on .cont {
-	display: block;
+.tab_menu .list .btn {
+	font-size: 13px;
+}
+
+.tab_menu .cont_area {
+	margin-top: 10px;
+}
+
+.tab_menu .cont_area .cont {
+	display: none;
+	background: #555;
+	color: #fff;
+	text-align: center;
+	width: 250px;
+	height: 100px;
+	line-height: 100px;
 }

@@ -6,23 +6,6 @@ li {
 	list-style-type: none;
 }
 
-a:link,
-a:visited {
-	text-decoration: none;
-}
-
-img {
-	border: none;
-}
-
-header,
-section,
-nav,
-footer {
-	display: block;
-}
-
-
 .tab_menu {
 	position: relative;
 }
