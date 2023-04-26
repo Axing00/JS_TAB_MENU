@@ -22,7 +22,6 @@ footer {
 	display: block;
 }
 
-
 .tab_menu {
 	position: relative;
 }
@@ -32,8 +31,6 @@ footer {
 	width: 1080px;
 	margin: 0 auto;
 }
-
-.tab_menu .list li {}
 
 .tab_menu .list .btn {
 	font-size: 13px;
